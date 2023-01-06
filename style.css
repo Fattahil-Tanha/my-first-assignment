@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* ------------header section--------------- */
+header{
+    background-image: url(images/banner/banner3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+}
+.title-section{
+    margin-top: 216px;
+    margin-left: 1050px;
+    margin-right: 230px;
+
+}
+.title{ 
+    font-family: 'Work Sans', sans-serif;
+    font-size: 65px;
+    color: #FFFFFF;
+}
+.title-desc{
+    margin-top: 24px;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+.btn-primary{
+    width: 160px;
+    height: 64px;
+    padding: 21px 25px;
+    margin-top: 32px;
+    border: none;
+    border-radius: 5px;
+    color: #005FAC;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 20px;
+}
+
+/* ----------header ends----------- */
+
+
+/* ----------main section----------- */
+
+.my-failures{
+    display: flex;
+    justify-content: center;
+    margin-top: 131px;
+    font-family: 'Work Sans', sans-serif;
+}
+.failures-details{
+    height: 416px;
+    width: 400px;
+    margin-top: 300px;
+    text-decoration: none;
+    margin-left: 100px;
+}
+.failures-title{
+    
+    font-size: 40px;
+    margin-bottom: 24px;
+}
+li{
+    list-style: none;
+}
+.check-list {
+    display: flex;
+    flex-direction: row;
+}
+.my-fails {
+    
+    margin-top: 8px;
+    font-size: 16;
+    
+}
+.failures-desc{
+    margin-bottom: 16px;
+}
+
+.fails>img{
+    padding-top: 10px;
+    height:20px;
+    width:20px;
+    
+}
+/* ----------planning section------------ */
+.my-plans{
+    font-family: 'Work Sans', sans-serif;
+}
+.my-plans-title{
+    font-size: 40px;
+    margin-top: 130px;
+    margin-left: 45%;
+}
+.skill-plannings{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-top: 50px;
+}
+.skill-title{
+    margin-top: 24px;
+    margin-bottom: 16px;
+    font-size: 30px;
+}
+.plan-desc{
+    font-size: 25px;
+    color: #737272;
+}
+/* ---------------contact me section------------- */
+
+.contact-details{
+    background-image: url(images/watch.png);
+    background-repeat: no-repeat;
+    margin-top: 130px;
+    margin-left: 18%;
+    position: relative;
+    display: block;
+
+}
+
+.contact-quote{
+    position: absolute;
+    top: 59px;
+    left: 64px;
+    font-size: 40px;
+    font-family: 'Work Sans', sans-serif;
+    color: #FFFFFF;
+}
+.contact-btn{
+       position: absolute;
+       top: 177px;
+       left: 64px;
+       font-family: 'Work Sans', sans-serif;
+       font-size: 20px;
+       border: none;
+    border-radius: 5px;
+    color: #005FAC;
+    width: 160px;
+    height: 64px;
+    padding: 21px 25px;
+    
+}
+
+/* --------------footer----------------- */
+footer{
+    display: flex;
+    margin-top: 130px;
+    padding-top: 130px;
+    padding-bottom: 130px;
+    background-color: #151414;
+    justify-content: space-around;
+}
+.footer-details{
+    color: #FFFFFF;
+}
+.footer-desc{
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
+.footer-title{
+    color: #FFFFFF;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 45px;
+    margin-bottom: 16px;
+}
+.email{
+    margin-bottom: 16px;
+}
+.socials{
+    display: flex;
+    height: 47px;
+    margin-top: 32px;
+    gap: 17px;
+}
+/* --------sub details---------- */
+.subscribe-details{
+    
+    display: inline-block;
+}
+.sub-title{
+    font-size: 25px;
+    color: #FFFFFF;
+    margin-bottom: 31px;
+    font-family: 'Work Sans', sans-serif;
+}
+.input-email{
+    color: white;
+    width: 220px;
+    height: 24px;
+    padding: 5px;
+    padding-left: 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: #151414;
+}
+.sub-btn{
+    margin-top: 16px;
+    padding: 25px 37px;
+    color: #FFFFFF;
+    background-color: #005FAC;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+
+
+.material-symbols-outlined {
+  height: 24px;
+  width: 24px;
+  
+}
