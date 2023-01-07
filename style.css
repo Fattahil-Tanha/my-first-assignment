@@ -13,6 +13,9 @@ header{
     flex-direction: column;
     text-align: right;
 }
+button{
+    cursor: pointer;
+}
 .title-section{
     margin-top: 216px;
     margin-left: 1050px;
